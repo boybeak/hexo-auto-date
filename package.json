@@ -1,0 +1,25 @@
+{
+  "name": "hexo-auto-date",
+  "version": "1.0.0",
+  "description": "Hexo plugin to automatically set post date using file creation or modification time",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "hexo",
+    "plugin",
+    "date",
+    "markdown"
+  ],
+  "author": "boybeak",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boybeak/hexo-auto-date.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "hexo": "^6.0.0"
+  }
+}
