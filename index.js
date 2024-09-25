@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 hexo.extend.filter.register('before_post_render', function (data) {
-  const pluginConfig = hexo.config.hexo_auto_time || {};
+  const pluginConfig = hexo.config.hexo_auto_date || {};
 
   // 检查插件是否启用，未启用则跳过
   if (!pluginConfig.enable) {
