@@ -1,6 +1,6 @@
 {
   "name": "hexo-auto-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hexo plugin to automatically set post date using file creation or modification time",
   "main": "index.js",
   "scripts": {},
